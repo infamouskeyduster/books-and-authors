@@ -24,7 +24,8 @@ describe('Author', function() {
     assert.deepEqual(allende.books, []);
   });
 
-  it('should be able to write a book', function() {
+  it
+  ('should be able to write a book', function() {
     var allende = new Author({ first: 'Isabel', last: 'Allende' });
     var houseOfSpirits = allende.write('The House of the Spirits', 'April 12, 1985')
 
